@@ -9,7 +9,7 @@ def index():
 
 
 @app.route('/hello/<name>')
-def hello():
+def hello(name):
     print(name)
     return 'Hello {0} !'.format(name)
 
